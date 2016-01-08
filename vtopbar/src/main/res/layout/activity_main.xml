@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.workdemo.vinjim.vtopbar.MainActivity">
+
+   <com.workdemo.vinjim.vtopbar.VTopBar
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:leftText="左边文字"
+       app:leftBackground="@android:color/darker_gray"
+       app:leftTextColor="@android:color/black"
+       app:rightText="右边文字"
+       app:rightTextColor="@android:color/black"
+       app:rightBackground="@android:color/darker_gray"
+       app:titleText="标题"
+       app:vtitleTextSize="10sp"
+       app:vtitleTextColor="@android:color/black"
+       >
+
+   </com.workdemo.vinjim.vtopbar.VTopBar>
+</RelativeLayout>
